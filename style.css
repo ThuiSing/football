@@ -195,6 +195,7 @@ main {
 }
 .news_content {
   position: relative;
+  overflow: hidden;
 }
 .news_text {
   position: absolute;
@@ -202,7 +203,7 @@ main {
   width: 100%;
   color: white;
   background: #00000073;
-  height: 97%;
+  height: 0%;
   padding: 20px 10px;
   cursor: pointer;
   visibility: hidden;
