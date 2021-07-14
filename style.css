@@ -253,12 +253,20 @@ footer {
   background: #e1dedd;
   line-height: 33px;
   border-radius: 50%;
+  transition: 0.2s ease-in-out;
 }
 
 .social_icon li a {
   display: inline-block;
   font-size: 18px;
   color: #5c5c5c;
+  transition: 0.2s ease-in-out;
+}
+.social_icon li:hover {
+  background: #ab9b96;
+}
+.social_icon li:hover a {
+  color: #e8e7e7;
 }
 
 /* responsive */
